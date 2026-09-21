@@ -1,4 +1,5 @@
-
+import os
+import pandas as pd
 # Path to the raw tourism.csv file inside the data folder
 RAW_PATH = "tourism_project/data/tourism.csv"
 
