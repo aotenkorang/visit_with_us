@@ -1,4 +1,5 @@
-
+import os
+import pandas as pd
 df = pd.read_csv("tourism_project/data/tourism.csv")   # Path to the registered tourism.csv inside the data folder
 df.drop(columns=["CustomerID"], inplace=True)          # Drop the customer identifier column which is not a predictive feature
 
